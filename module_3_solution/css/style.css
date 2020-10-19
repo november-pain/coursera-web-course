@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+#header-nav {
+    color: aliceblue;
+    border: 2px solid black;
+    height: 70px;
+}
+#menu-title {
+    margin-top: 20px;
+    font-size: 220%
+}
+.food-cell {
+    background-color: rgb(105, 105, 105);
+    border: 1px solid black;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.meal {
+    margin-top: 15px;
+}
+p {
+    padding: 0px 10px;
+}
+.navbar-toggler {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+@media (max-width: 575px){
+    .row {
+        margin: 20px;
+    }
+}
